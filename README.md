@@ -5,3 +5,4 @@ En este desafío valida los conocimientos de media queries y breakpoints aplicad
 ![Screen de ejercico](assets/img/captura.png)
 
 # prueba-animaciones-css
+# prueba-animaciones-css
