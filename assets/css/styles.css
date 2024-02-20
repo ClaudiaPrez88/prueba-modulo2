@@ -193,14 +193,27 @@ label{
     align-items: center;
     flex-direction: column;
     }
-    h1 {
+    .caja-tit h1 {
         color: #ffffff;
+        text-shadow: 3px 3px 0px rgba(230,96,161,0.58);
         font-size: 4.5em;
         text-align: center;
         font-family: 'Better Rouge';
-        margin: 10px;
-        
     }
+    .caja-tit h1:nth-child(1) {
+        font-size: 8em;
+        margin:0px;
+      }
+      .caja-tit h1:nth-child(2) {
+        margin:0px;
+        opacity: 0.6;
+        display: none;
+      }
+      .caja-tit h1:nth-child(3) {
+        margin:0px;
+        opacity: 0.4;
+        display: none;
+      }
     h4 {
         color: rgb(255, 144, 148);
         padding: 10px 5px;
@@ -252,7 +265,6 @@ label{
     position: absolute;
     top: 0px;
     left: 5%;
-    z-index: 30;
 }
 .elemento-slide2 {
     position: absolute;
@@ -267,6 +279,7 @@ label{
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: 50%;
+    background-position-y: 16px;
 }
 .elemento-slider {
     width: 100%;
@@ -390,10 +403,9 @@ label{
 
   }
   @media  (min-width:1080px){
-    h1 {
-        font-size: 10em;
+    .caja-tit h1 {
+        font-size: 8em;
         line-height: 0.8;
-        margin-top: 59px;
     }
     #slider {
         grid-template-columns: 400px auto;
@@ -408,6 +420,12 @@ label{
         height: 400px;
         background-image: url(../img/caja-tit2.png);
     }
+    .caja-tit h1:nth-child(2) {
+        display: block;
+      }
+      .caja-tit h1:nth-child(3) {
+        display: block;
+      }
     
   }
  
