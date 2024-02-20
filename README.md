@@ -1,9 +1,5 @@
-# Desafío 3 - Uso de Media Query - Módulo 2
+# Prueba final Módulo 2 - Animaciones con CSS
 
-En este desafío valida los conocimientos de media queries y breakpoints aplicados al diseño de layouts responsivos.
+Esta prueba busca validar conocimientos más profundos en CSS utilizando Flexbox, CSS Grid, transiciones y transformaciones de CSS.
 
 ![Screen de ejercico](assets/img/captura.png)
-
-# prueba-animaciones-css
-# prueba-animaciones-css
-# prueba-modulo2
